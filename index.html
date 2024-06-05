@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4d9a4abad5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+    <script src="src/js/script.js" defer></script>
+    <title>Weather Guardian</title>
+</head>
+<body class="bg-body">
+    <div class="container">
+        <div class="wrapper">
+            <div class="img_section">
+                <div class="default_info">
+                    <h2 class="default_day">-</h2>
+                    <span class="default_date">-</span>
+                    <div class="icons">
+                        <img class="icon-weather" src="src/img/icons/icon-14.png" alt="" />
+                        <h2 class="weather_temp">-</h2>
+                        <h3 class="cloudtxt">-</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="content_section">
+                <form>
+                    <input
+                        type="text"
+                        placeholder="Pesquise sua cidade aqui."
+                        class="input_field"
+                    />
+                    <button type="submit" class="btn_search" onclick="return searchButton()" >Perquisar</button>
+                </form>
+                <div class="day_info">
+                    <div class="content">
+                        <p class="title">Cidade:</p>
+                        <span class="first-value-city">-</span>
+                    </div>
+                    <div class="content">
+                        <p class="title">Temperatura:</p>
+                        <span class="first-value-temperature">-</span>
+                    </div>
+                    <div class="content">
+                        <p class="title">Humidade do ar:</p>
+                        <span class="first-value-humidity">-</span>
+                    </div>
+                    <div class="content">
+                        <p class="title"> Vel. do Vento:</p>
+                        <span class="first-value-wind">-</span>
+                    </div>
+                </div>
+                <div class="list_content">
+                    <ul>
+                        <li>
+                            <img class="day-icon-2" src="src/img/icons/icon-14.png" />
+                            <span class="day-week-2">-</span>
+                            <span class="day-temp-2">-</span>
+                        </li>
+                        <li>
+                            <img class="day-icon-3" src="src/img/icons/icon-14.png" />
+                            <span class="day-week-3">-</span>
+                            <span class="day-temp-3">-</span>
+                        </li>
+                        <li>
+                            <img class="day-icon-4" src="src/img/icons/icon-14.png" />
+                            <span class="day-week-4">-</span>
+                            <span class="day-temp-4">-</span>
+                        </li>
+                        <li>
+                            <img class="day-icon-5" src="src/img/icons/icon-14.png" />
+                            <span class="day-week-5">-</span>
+                            <span class="day-temp-5">-</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+      </div>
+</body>
+</html>
